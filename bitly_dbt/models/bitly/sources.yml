@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: world_bank_global_population
+    tables:
+      - name: population_by_country
+      - name: health_nutrition_population

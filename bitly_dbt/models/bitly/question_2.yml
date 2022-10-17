@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: question_2
+    description: "This table contains historical population data for every country from 2010 onwards"
+
+    columns:
+      - name: country
+        description: "Name of Country"
+
+      - name: country_code
+        description: "Country Code"
+
+      - name: as_of_year
+        description: "Year"
+
+      - name: population
+        description: "Population of country during specific year"
